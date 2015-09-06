@@ -1,6 +1,6 @@
 {
     "name": "html2hs",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Convert HTML to hscript",
     "main": "lib/index.js",
     "dependencies": {
