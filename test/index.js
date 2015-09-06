@@ -26,12 +26,12 @@ it('should return children', function() {
     assert.equal(hscript, 'h("p", [ "Hello\\n", h("b", [ "World" ]) ])');
 });
 
-it.only('should handle correctly pre', function() {
+it('should handle correctly pre', function() {
     var hscript = html2hs('<pre>Hello\n<b>World</b></pre>');
     assert.equal(hscript, 'h("pre", [ "Hello\\n", "<b>World</b>" ])');
 });
 
 it('should output style attribute as an object', function() {
     var hscript = html2hs('<h1 style="color: red; font-size: 12px">Hello World</h1>');
-    assert.equal(hscript, 'h("h1", { "style": {"color":"red","font-size":"12px"} }, [ "Hello World" ])');
+    assert.equal(hscript, 'h("h1", {"style":{"color":"red","font-size":"12px"}}, [ "Hello World" ])');
 });
