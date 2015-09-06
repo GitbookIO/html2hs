@@ -16,6 +16,11 @@ it('should return class', function() {
     assert.equal(hscript, 'h("h1.beep", [ "Hello World" ])');
 });
 
+it('should return class and id', function() {
+    var hscript = html2hs('<h1 id="beep" class="beep">Hello World</h1>');
+    assert.equal(hscript, 'h("h1.beep#beep", [ "Hello World" ])');
+});
+
 it('should return hyperscript', function() {
     var hscript = html2hs('<div><div><h1 foo="beep">Hello World</h1></div></div>');
     assert.equal(hscript, 'h("div", [ h("div", [ h("h1", {"foo":"beep"}, [ "Hello World" ]) ]) ])');
