@@ -37,8 +37,8 @@ it('should handle correctly pre', function() {
 });
 
 it('should handle correctly pre with code', function() {
-    var hscript = html2hs('<pre><code>Hello\n<b>World</b></code></pre>');
-    assert.equal(hscript, 'h("pre", [ h("code", [ "Hello\\n", "<b>World</b>" ]) ])');
+    var hscript = html2hs('<pre><code>Hello\n<b><code>World</code></b></code></pre>');
+    assert.equal(hscript, 'h("pre", [ h("code", [ "Hello\\n", "<b><code>World</code></b>" ]) ])');
 });
 
 it('should output style attribute as an object', function() {
