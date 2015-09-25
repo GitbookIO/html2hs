@@ -1,6 +1,6 @@
 # html2hs
 
-[![NPM version](https://badge.fury.io/js/html2hs.svg)](http://badge.fury.io/js/html2hs) [![Build Status](https://travis-ci.org/SamyPesse/html2hs.svg?branch=master)](https://travis-ci.org/SamyPesse/html2hs)
+[![NPM version](https://badge.fury.io/js/html2hs.svg)](http://badge.fury.io/js/html2hs) [![Build Status](https://travis-ci.org/GitbookIO/html2hs.svg?branch=master)](https://travis-ci.org/GitbookIO/html2hs)
 
 Parse HTML to [hyperscript](https://github.com/Matt-Esch/virtual-dom/tree/master/virtual-hyperscript) (for [virtual-dom](https://github.com/Matt-Esch/virtual-dom)).
 

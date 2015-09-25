@@ -17,11 +17,11 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/SamyPesse/html2hs.git"
+        "url": "https://github.com/GitbookIO/html2hs.git"
     },
     "author": "Samy Pessé <samypesse@gmail.com>",
-    "license": "Apache 2",
+    "license": "Apache-2.0",
     "bugs": {
-        "url": "https://github.com/SamyPesse/html2hs/issues"
+        "url": "https://github.com/GitbookIO/html2hs/issues"
     }
 }
